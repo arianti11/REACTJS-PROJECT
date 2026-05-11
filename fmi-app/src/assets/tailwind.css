@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 1. Deklarasikan Font Face */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('/PlusJakartaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('/PlusJakartaSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* 2. Daftarkan ke sistem Tailwind v4 */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
